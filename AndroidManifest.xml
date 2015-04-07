@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shizhefei.view.loadview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.shizhefei.test.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shizhefei.test.SimpleActivity"
+            android:label="@string/title_activity_simple" >
+        </activity>
+        <activity
+            android:name="com.shizhefei.test.Example1Activity"
+            android:label="@string/title_activity_example1" >
+        </activity>
+        <activity
+            android:name="com.shizhefei.test.Example2Activity"
+            android:label="@string/title_activity_example2" >
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

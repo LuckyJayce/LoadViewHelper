@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoadView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_simple">SimpleActivity</string>
+    <string name="title_activity_example1">Example1Activity</string>
+    <string name="title_activity_example2">Example2Activity</string>
+
+</resources>
